@@ -2,8 +2,8 @@ name : github-action-demo1
 
 on:
   workflow_dispatch:
-push:
-  branches: ["master"]
+  push:
+    branches: ["master"]
 
 jobs:
   build:
